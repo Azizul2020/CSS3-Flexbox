@@ -1,0 +1,45 @@
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex-basis: 250px;
+    flex-shrink: 1;
+    margin: 8px;
+    padding: 15px;
+    border: 1px solid gray;
+}
+
+.one {
+    flex-grow: 1;
+}
+
+.two {
+    flex-grow: 2;
+}
+
+.three {
+    flex-grow: 5;
+}
+
+.four {
+    flex-grow: 1;
+}
+
+.five {
+    flex-grow: 2;
+}
+
+.six {
+    flex-grow: 3;
+}
+
+@media all and (max-width:300px) and (min-width:100px) {
+    h1 {
+        font-size: 25px;
+    }
+}
